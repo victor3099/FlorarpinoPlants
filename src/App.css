@@ -36,3 +36,46 @@
     transform: rotate(360deg);
   }
 }
+
+.scrollable-container {
+  width: 100%;
+  overflow-x: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+}
+
+.scrollable-content {
+  display: inline-flex;
+  padding: 50px;
+}
+
+.list-item {
+  min-width: 200px;
+  min-height: 200px;
+  background-color: #eee;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.controls button {
+  font-size: 20px;
+  background-color: #ccc;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.map-container {
+  height: 400px; /* Imposta l'altezza desiderata della mappa */
+  width: 100%;
+  border: 1px solid #ccc; /* Aggiungi un bordo al container della mappa */
+}
